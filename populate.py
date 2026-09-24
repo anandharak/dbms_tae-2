@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 VOLATILITY = ROOT / "Cleaned Datasets" / "F&O Volatility.csv"
 DERIVATIVES = ROOT / "Cleaned Datasets" / "F&O Vola_tility.csv"
-OUTPUT = ROOT / "data.sql"
+OUTPUT = ROOT / "SQL Queries" / "data.sql"
 
 
 def read_rows(path):
